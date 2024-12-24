@@ -1,0 +1,19 @@
+# Ignore build results
+/bin/
+/obj/
+/publish/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore app settings that might contain sensitive information
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.json
+
+# Visual Studio-specific
+.vs/
